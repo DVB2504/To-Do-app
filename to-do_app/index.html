@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- playpen sans -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<script src="to-do.js"></script>
+</head>
+
+<body class="noto-sans" >
+
+    <nav>
+    <div class="top_border"> 
+        <div class="size">
+       <ul>
+           <b><li><a href="#home">Home</a></li>
+           <li><a href="#Create New Task">Create New Task</a></li>
+           <li><a href="#Timer">Timer</a></li>
+       </ul>
+    </div>
+   </div>
+   </nav>
+
+   <div class="fadeInUp-animation">
+    <div class="poppins-medium ">
+        <h1 class="td "    style="color:rgb(255, 255, 255);text-align: center;font-size: 50px;margin-top: 4%;">To-Do List</h1>
+    </div>
+</div>
+    <div class="playpen-sans">
+        <div class="fadeInUp-animation">
+        <h1 class="animated-text"> Finish What You Start , Stay Focused!</h1>
+        </div></div>
+    </div>
+    <div class="fadeInUp-animation">
+     <div class="container" id="Create New Task">
+        <h1 >Todo App</h1>
+        <div class="todo-list">
+            <input type="text" placeholder="Add a new task">
+            <button>Add Task</button>
+            <ul style="padding: 2%;">
+                Your Tasks 
+             </ul>
+        </div>
+    </div>
+    </div> 
+
+    <div class="fadeInUp-animation">
+        <div class="box">
+           <div class="box-content"> 
+            <h3 id="Timer">Timer</h3>
+           </div>
+           <div class="timer-container">
+            <span id="hours">00</span>:<span id="minutes">50</span>:<span id="seconds">00</span>
+        </div>
+        <div class="timer-controls">
+            <button id="startTimer">Start</button>
+            <button id="stopTimer">Stop</button>
+        </div>
+    </div>
+</div>
+    
+    <footer class="footer_content">
+        <div class="footer_items"></div>
+        <div  class="ftr_skill">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-facebook-official "></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/thecolorheadedbrush?igsh=ZmxoY2p4dHZub2o3">
+                        <i class="fa fa-instagram "></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-pinterest-p "></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/dhanshree-bane-62aa06257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <i class="fa fa-linkedin "></i>
+                    </a>
+                </li>
+            </ul>
+        
+        <span style="font-size: small;margin-right: 20px;"> | © 2024 Dhanshree vijay bane | All Rights Reserved</span>
+        </div>
+        </footer>
+    
+</body>
+</html>
